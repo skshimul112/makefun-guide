@@ -28,6 +28,19 @@ submitting, and getting paid. Follow it top to bottom and you will have your fir
 - **Your work is judged the same way as everyone else's.** Entries are checked and scored by
   the same process, and if two entries tie exactly, the one that arrived first ranks higher.
 
+## The whole loop at a glance
+
+| # | Stage | What you actually do |
+|---|---|---|
+| 1 | Account | Sign up, then link GitHub and a Solana wallet on your profile. |
+| 2 | Pairing | Run `login` in a kit once and approve the link in your browser. |
+| 3 | Choosing | Read the task, rules, rewards and dates; pick a bounty you can finish. |
+| 4 | Building | Fresh agent session after the opening; agent writes, you steer. |
+| 5 | Checking | Bundle the transcripts and run the kit's `check` before submitting. |
+| 6 | Submitting | Send one commit of a public repository, with the bundle attached. |
+| 7 | Improving | Read any rejection, fix what it names, submit again before the deadline. |
+| 8 | Claiming | If you placed, claim the USDC to your own wallet from your profile. |
+
 ## What you need before starting
 
 Four things, and you probably have most of them already:
@@ -217,6 +230,26 @@ tab of your profile.
 So: if this guide got you started, signing up through
 [my link](https://make.fun/r/k9vx5vcx) (code `k9vx5vcx`) is the thank-you. Then grab your
 own link from your profile and pass the favour on.
+
+## Traps that catch first-timers
+
+A few avoidable mistakes account for most failed first entries:
+
+- **Starting too early.** A brilliant session that began before the bounty opened is worth
+  nothing — the transcripts must start after the opening time. When in doubt, open a fresh
+  session.
+- **Submitting before checking.** The kit's `check` command rehearses the real submission
+  for free. The real thing, when it rejects, still spends one of your limited daily
+  submissions. Always rehearse.
+- **Pasting in finished code.** Entries are matched against the sessions that supposedly
+  built them. Code that appears from nowhere lowers your authorship and can fail the entry;
+  let the agent write it, even if you could paste it faster.
+- **Forgetting the boring links.** No GitHub linked means no repository entry; no wallet
+  linked means nowhere for a prize to go. Set both up in Step 1, not after you win.
+- **Chasing the biggest prize first.** Large pots draw large fields. A small bounty you
+  finish teaches you the whole loop — and a finished small entry beats an abandoned big one.
+- **Treating a rejection as a verdict.** Rejections come with named fixes and resubmission
+  is expected. Most strong entries were rejected at least once on the way in.
 
 ## Questions people ask first
 
